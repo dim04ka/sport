@@ -1,0 +1,54 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/sort-comp": 0,
+    "react/state-in-constructor": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "comma-dangle": 0,
+    "function-paren-newline": 0,
+    "global-require": 0,
+    "no-confusing-arrow": 0,
+    "arrow-parens": ["error", "as-needed"],
+    "no-nested-ternary": 0,
+    "object-curly-newline": 0,
+    "no-mixed-operators": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-param-reassign": 0,
+    "react/prefer-stateless-function": "off",
+    "import/prefer-default-export": 0,
+    "react/no-children-prop": 0,
+    "max-len": 0,
+    "no-underscore-dangle": 0,
+    "react/prop-types": [1,{ "ignore": ["classes"] }],
+    "no-restricted-syntax": 0,
+    "camelcase": 0,
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "eol-last": 0,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "react/jsx-one-expression-per-line": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@store", "src/store"]
+        ]
+      }
+    }
+  }
+}
