@@ -1,10 +1,10 @@
 import React from 'react';
 
 function App() {
-  const user = 'USER';
+  var user = 'USER';
   return (
     <div className="App">
-      Hello {user }
+      Hello {user          }
     </div>
   );
 }
